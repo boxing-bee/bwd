@@ -4,8 +4,8 @@ describe('empty spec', () => {
   })
 
   it('displays the resources text', () => {
-    cy.get('h1')
-    .contains('Quickstart Template');
+    cy.get('p')
+    .contains('I had a great time working out with you!');
   })
   it('renders the image', () => {
     cy.get('img')
